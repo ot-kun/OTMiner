@@ -6,14 +6,15 @@ ESP32 is a powerful device, however it is no way or extremely low possibility to
 
 ## Introduction
 no fancy UI, just a hash unit. Keep it simple and easy scale up. Or just a OLED Display is more than enough. I would like to know if some mining units keep sending nice share or no share at all. I need all the data, so a scaling up is needed.
+Multiple ESP32 C6 as slave mining, using ESP32 S3 to control.
 
 ## Configurations
 Configurations through Serial the first time.
-`WIFI SSID`
-`WIFI PASSWORD`
-`POOL URL` (without stratrum+tcp)
-`POOL PORT`
-`ADDRESS`
+- `WIFI SSID`
+- `WIFI PASSWORD`
+- `POOL URL` (without stratrum+tcp)
+- `POOL PORT`
+- `ADDRESS`
 
 ## Todos
 - ETHernet instead of WiFi (keep power consumption at mininal)
