@@ -5,10 +5,10 @@ ESP32 miner with sha256 Hardware Acceleration
 ESP32 is a powerful device, however it is no way or extremely low possibility to actual mine a BTC Block in terms of lightyear. "To infinity and beyond!"
 
 ## Benchmark
-ESP32 C3 Low Power Mode - 0.16W
-<img width="424" height="222" alt="ESP32_C3_Benchmark_SHA256_LP_0 16W" src="https://github.com/user-attachments/assets/015d1b74-52f9-47f0-a5d2-c63fb527512d" />
-ESP32 C3 High Power Mode - 0.18W
-<img width="431" height="221" alt="ESP32_C3_Benchmark_SHA256_HP_0 18W" src="https://github.com/user-attachments/assets/cd663d64-37b1-4df8-85a8-46cb10ef4ec2" />
+- ESP32 C3 Low Power Mode - 0.16W
+- <img width="424" height="222" alt="ESP32_C3_Benchmark_SHA256_LP_0 16W" src="https://github.com/user-attachments/assets/015d1b74-52f9-47f0-a5d2-c63fb527512d" />
+- ESP32 C3 High Power Mode - 0.18W
+- <img width="431" height="221" alt="ESP32_C3_Benchmark_SHA256_HP_0 18W" src="https://github.com/user-attachments/assets/cd663d64-37b1-4df8-85a8-46cb10ef4ec2" />
 High Power Mode +6 performance with 12.5% power consumption
 
 ## Introduction
