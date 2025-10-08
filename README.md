@@ -33,5 +33,7 @@ Configurations through Serial the first time.
 ** A demo binary with limited use may release for around 60 minutes **
 Use [https://espressif.github.io/esptool-js/](https://espressif.github.io/esptool-js/) and install binaries on your board.
 
+## Supports & Donations
+Bitcoin : 1AnNcAMkYaagAW8A3V2gjgbbnpEWuqv7JH
 
 
