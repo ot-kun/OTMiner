@@ -16,7 +16,8 @@ no fancy UI, just a hash unit. Keep it simple and easy scale up. Or just a OLED 
 Multiple ESP32 C6 as slave mining, using ESP32 S3 to control.
 
 ## Configurations
-Configurations through Serial the first time.
+~~Configurations through Serial the first time.~~
+Added WIFI AP for Setup (Although some KH/s lower during adding this....T_T)
 - `WIFI SSID`
 - `WIFI PASSWORD`
 - `POOL URL` (without stratrum+tcp)
@@ -24,16 +25,19 @@ Configurations through Serial the first time.
 - `ADDRESS`
 
 ## Todos
+Expected valid share with turn on the led on mining slave board
 - ETHernet instead of WiFi (keep power consumption at mininal)
-- 32 ESP C6 mining units on a single PCB
-- 96 ESP C6 mining units on a single PCB
+- 32 ESP C6 mining units on a single PCB (easy to stack more mining slaves)
+- 96 ESP C6 mining units on a single PCB (easy to stack more mining slaves)
 
 
 ## Install from website
-** A demo binary with limited use may release for around 60 minutes **
+~~A demo binary with limited use may release for around 60 minutes~~
+unlimited version just for C3 for testing
 Use [https://espressif.github.io/esptool-js/](https://espressif.github.io/esptool-js/) and install binaries on your board.
 
 ## Supports & Donations
+Really need some funding to continue
 Bitcoin : 1AnNcAMkYaagAW8A3V2gjgbbnpEWuqv7JH
 
 
