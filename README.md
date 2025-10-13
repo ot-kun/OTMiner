@@ -14,12 +14,13 @@ High Power Mode +6 performance with 12.5% power consumption
 ## Release V1.0
 - ESP32 C3 @ 400-410khs (@0.15W), further enhance the SHA loop, no stacking for verify, directly verify and send back to pool.
 -
-- No other ESP32 device versions right now, low in funding
+- No other ESP32 device versions right now, low in funding, just a self fun project
 
 
 ## Introduction
 - no fancy UI, just a hash unit. Keep it simple and easy scale up. Or just a OLED Display is more than enough. I would like to know if some mining units keep sending nice share or no share at all. I need all the data, so a scaling up is needed.
-- Multiple ESP32 C6 as slave mining, using ESP32 S3 to control.
+- Multiple ESP32 C6 as slave mining, using ESP32 S3 to control(maybe).
+- 32 ESP32 C3/C6 supermini as mining slave units, which light up its LED while submit a valid share, so it's like a LED Cube. 
 
 ## Configurations
 ~~Configurations through Serial the first time.~~
@@ -34,18 +35,26 @@ High Power Mode +6 performance with 12.5% power consumption
 
 ## Todos
 Expected valid share with turn on the led on mining slave board
-- ETHernet instead of WiFi (keep power consumption at mininal)
-- 32 ESP C6 mining units on a single PCB (easy to stack more mining slaves)
-- 96 ESP C6 mining units on a single PCB (easy to stack more mining slaves)
+- Further tunning should be in V1.1 (not yet, aims for slighty reduce power usage, slighty more hashes/s, more stable)
+- ETHernet instead of WiFi (keep power consumption at mininal, keep more cpu on handling)
+- Changing the power input from 5v to 12v(able to scale up like more than 200 mining slaves)
+- 32 ESP C3/C6 mining units on a single PCB (easy to stack more mining slaves)
+- 96 ESP C3/C6 mining units on a single PCB (easy to stack more mining slaves)
 
+## Modification
+- Mainly rewrite the whole SHA calculation and Fully utilized the hardware acceleration. Just setup, plug-in and see the result.
+- Not working well with public-pool(not sure why), if you using your own ckpool build from github should be fine.
+- Wifi Setup and stratrum handling mainly using NerdMiner v2
 
 ## Install from website
 ~~A demo binary with limited use may release for around 60 minutes~~
-- unlimited version just for C3 for testing
+- unlimited ESP32Miner version just for C3 for testing
 - Use [https://espressif.github.io/esptool-js/](https://espressif.github.io/esptool-js/) and install binaries on your board.
+
+## Original Source of the project
+Original project https://github.com/valerio-vaccaro/HAN
+Part of the source code from https://github.com/BitMaker-hub/NerdMiner_v2/
 
 ## Supports & Donations
 - Really need some funding to continue
 - Bitcoin : 1AnNcAMkYaagAW8A3V2gjgbbnpEWuqv7JH
-
-
