@@ -52,8 +52,8 @@ Expected valid share with turn on the led on mining slave board
 - Use [https://espressif.github.io/esptool-js/](https://espressif.github.io/esptool-js/) and install binaries on your board.
 
 ## Original Source of the project
-Original project https://github.com/valerio-vaccaro/HAN
-Part of the source code from https://github.com/BitMaker-hub/NerdMiner_v2/
+- Original project https://github.com/valerio-vaccaro/HAN
+- Part of the source code from https://github.com/BitMaker-hub/NerdMiner_v2/
 
 ## Supports & Donations
 - Really need some funding to continue
