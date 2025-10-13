@@ -12,7 +12,7 @@ ESP32 is a powerful device, however it is no way or extremely low possibility to
 High Power Mode +6 performance with 12.5% power consumption
 
 ## Release V1.0
-- ESP32 C3 @ 400-410khs, further enhance the SHA loop, no stacking for verify, directly verify and send back to pool.
+- ESP32 C3 @ 400-410khs (@0.15W), further enhance the SHA loop, no stacking for verify, directly verify and send back to pool.
 -
 - No other ESP32 device versions right now, low in funding
 
