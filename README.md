@@ -11,6 +11,12 @@ ESP32 is a powerful device, however it is no way or extremely low possibility to
 - <img width="431" height="221" alt="ESP32_C3_Benchmark_SHA256_HP_0 18W" src="https://github.com/user-attachments/assets/cd663d64-37b1-4df8-85a8-46cb10ef4ec2" />
 High Power Mode +6 performance with 12.5% power consumption
 
+## Release V1.0
+- ESP32 C3 @ 400-410khs, further enhance the SHA loop, no stacking for verify, directly verify and send back to pool.
+-
+- No other ESP32 device versions right now, low in funding
+
+
 ## Introduction
 - no fancy UI, just a hash unit. Keep it simple and easy scale up. Or just a OLED Display is more than enough. I would like to know if some mining units keep sending nice share or no share at all. I need all the data, so a scaling up is needed.
 - Multiple ESP32 C6 as slave mining, using ESP32 S3 to control.
@@ -19,7 +25,7 @@ High Power Mode +6 performance with 12.5% power consumption
 ~~Configurations through Serial the first time.~~
 - Added WIFI AP for Setup (Although some KH/s lower during adding this....T_T)
 - WIFI AP SSID: OTMinerAP
-- WIFI AP PWD: OTMiner
+- WIFI AP PWD: OverTimeMiner
 - `WIFI SSID`
 - `WIFI PASSWORD`
 - `POOL URL` (without stratrum+tcp)
