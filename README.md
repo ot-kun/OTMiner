@@ -1,6 +1,9 @@
 # OTMiner
 ESP32 miner with sha256 Hardware Acceleration
 
+## Introduction
+I do have a NMMiner which showing 1MHs, while my pool speaks otherwise like around 750khs running for 1~2 week. That is what I wondering the whole SHA loop verification simply stacking. Then I do think ESP32 S3 should done it better. The proof of concept using ESP32 C3 because I don't have S3 in hand but C3. This project should be fun if it is expandable. Again, you should know it is really really low possibility to actual mine a Block. Higher hashrate actually meaningless, but fun for me to challenge. And I will do other ESP32 benchmark and testing, just take time.
+
 ## Caution
 ESP32 is a powerful device, however it is no way or extremely low possibility to actual mine a BTC Block in terms of lightyear. "To infinity and beyond!"
 
