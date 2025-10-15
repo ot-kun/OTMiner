@@ -14,6 +14,10 @@ ESP32 is a powerful device, however it is no way or extremely low possibility to
 - <img width="431" height="221" alt="ESP32_C3_Benchmark_SHA256_HP_0 18W" src="https://github.com/user-attachments/assets/cd663d64-37b1-4df8-85a8-46cb10ef4ec2" />
 High Power Mode +6 performance with 12.5% power consumption
 
+**How it works❓**
+
+It has 2 power mode to switch, so in avg. it sits around 400-410khs.
+
 ## Release V1.0
 - ESP32 C3 @ 400-410khs (@0.15W), further enhance the SHA loop, no stacking for verify, directly verify and send back to pool.
 -
