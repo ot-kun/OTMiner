@@ -14,6 +14,10 @@ ESP32 is a powerful device, however it is no way or extremely low possibility to
 - <img width="431" height="221" alt="ESP32_C3_Benchmark_SHA256_HP_0 18W" src="https://github.com/user-attachments/assets/cd663d64-37b1-4df8-85a8-46cb10ef4ec2" />
 High Power Mode +6 performance with 12.5% power consumption
 
+- ESP32 D0WD Performance
+- <img width="551" height="211" alt="ESP32_D0WD" src="https://github.com/user-attachments/assets/0ea0ec6b-e717-4151-9eb6-87f82daea9a8" />
+- Applied my version of SHA loop logic, not much performance increase, around 360kh/s, just few kh/s more
+
 **How it works❓**
 
 It has 2 power mode to switch, so in avg. it sits around 400-410khs.
