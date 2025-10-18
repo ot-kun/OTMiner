@@ -13,6 +13,7 @@ ESP32 is a powerful device, however it is no way or extremely low possibility to
 - ESP32 C3 High Power Mode - 0.18W
 - <img width="431" height="221" alt="ESP32_C3_Benchmark_SHA256_HP_0 18W" src="https://github.com/user-attachments/assets/cd663d64-37b1-4df8-85a8-46cb10ef4ec2" />
 High Power Mode +6 performance with 12.5% power consumption
+Version1.1 : HP Mode 0.15W@425khs+ 
 
 - ESP32 D0WD Performance @ 0.45W
 - <img width="551" height="211" alt="ESP32_D0WD" src="https://github.com/user-attachments/assets/0ea0ec6b-e717-4151-9eb6-87f82daea9a8" />
