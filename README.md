@@ -21,6 +21,9 @@ Version1.1 : ESP32 C3 HP Mode 0.15W@425khs+
 - Applied my version of SHA loop logic, not much performance increase, around 360kh/s, just few kh/s more
 - If someone need this version/CYD version, please ask. Just a few k hashrate more.
 
+**ESP32 S3**
+- 328kh/s+, higher than NerdMiner, however not meet what I want. Maybe due to my logic work better on RISCV, I should try ESP32 P4/C6
+
 **How it works❓**
 
 It has 2 power modes to switch, so in avg. it sits around 400-410khs.
