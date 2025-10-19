@@ -22,13 +22,24 @@ Version1.1 : HP Mode 0.15W@425khs+
 
 **How it works❓**
 
-It has 2 power mode to switch, so in avg. it sits around 400-410khs.
+It has 2 power modes to switch, so in avg. it sits around 400-410khs.
 
-## Release V1.0
-- ESP32 C3 @ 400-410khs (@0.15W), further enhance the SHA loop, no stacking for verify, directly verify and send back to pool.
--
+## RC V1.1(still working on it)
+**ESP32 C3 @ 355khs+ (0.13W)**
+- overflow issue fixed.
+- Stability enhanced
+- little weight powerful miner
+- public-pool issue fixed 
+
+**ESP32 D0WD 360khs+ (0.45W), CYD works as well, but nothing huge improvements with just few more khs.**
+- ❌no release since no big different to Nerdminer, just few khs more.
+
+
+## Release V1.0(deleted‼️)
+**ESP32 C3 @ 400-410khs (@0.15W)**
+- Further enhance the SHA loop, no stacking for verify, directly verify and send back to pool.
+- ❌deleted due to overflow after few days(stressful sha loop)
 - No other ESP32 device versions right now, low in funding, just a self fun project
-
 
 ## Introduction
 - no fancy UI, just a hash unit. Keep it simple and easy scale up. Or just a OLED Display is more than enough. I would like to know if some mining units keep sending nice share or no share at all. I need all the data, so a scaling up is needed.
@@ -48,7 +59,8 @@ It has 2 power mode to switch, so in avg. it sits around 400-410khs.
 
 ## Todos
 Expected valid share with turn on the led on mining slave board
-- Further tunning should be in V1.1 (not yet, aims for slighty reduce power usage, slighty more hashes/s, more stable)
+- ✅Further tunning should be in V1.1 (not yet, aims for slighty reduce power usage, slighty more hashes/s, more stable)
+- 🛠️Stacking option(show as 1 unit, just 1 wifi, reduce rf noise)
 - ETHernet instead of WiFi (keep power consumption at mininal, keep more cpu on handling)
 - Changing the power input from 5v to 12v(able to scale up like more than 200 mining slaves)
 - 32 ESP C3/C6 mining units on a single PCB (easy to stack more mining slaves)
@@ -56,7 +68,7 @@ Expected valid share with turn on the led on mining slave board
 
 ## Modification
 - Mainly rewrite the whole SHA calculation and Fully utilized the hardware acceleration. Just setup, plug-in and see the result.
-- Not working well with public-pool(not sure why), if you using your own ckpool build from github should be fine.
+~~- Not working well with public-pool(not sure why), if you using your own ckpool build from github should be fine.~~
 - Wifi Setup and stratrum handling mainly using NerdMiner v2
 
 ## Install from website
