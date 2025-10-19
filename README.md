@@ -26,7 +26,7 @@ Version1.1 : ESP32 C3 HP Mode 0.15W@425khs+
 It has 2 power modes to switch, so in avg. it sits around 400-410khs.
 
 ## RC V1.1(still working on it)
-**ESP32 C3 @ 355khs+ (0.13W)**
+**ESP32 C3 @ 355khs+ (0.13W) LP@ 345khs+(0.11W)**
 - overflow issue fixed.
 - Stability enhanced
 - little weight powerful miner
