@@ -2,7 +2,7 @@
 ESP32 miner with sha256 Hardware Acceleration
 
 ## Introduction
-I do have a NMMiner which showing 1MHs, while my pool speaks otherwise like around 750khs running for 1~2 week. That is what I wondering the whole SHA loop verification simply stacking. Then I do think ESP32 S3 should done it better. The proof of concept using ESP32 C3 because I don't have S3 in hand but C3. This project should be fun if it is expandable. Again, you should know it is really really low possibility to actual mine a Block. Higher hashrate actually meaningless, but fun for me to challenge. And I will do other ESP32 benchmark and testing, just take time.
+This project should be fun if it is expandable. Again, you should know it is really really low possibility to actual mine a Block. Higher hashrate actually meaningless, but fun for me to challenge. And I will do other ESP32 benchmark and testing, just take time.
 
 ## Caution
 ESP32 is a powerful device, however it is no way or extremely low possibility to actual mine a BTC Block in terms of lightyear. "To infinity and beyond!"
@@ -14,7 +14,7 @@ ESP32 is a powerful device, however it is no way or extremely low possibility to
 - <img width="431" height="221" alt="ESP32_C3_Benchmark_SHA256_HP_0 18W" src="https://github.com/user-attachments/assets/cd663d64-37b1-4df8-85a8-46cb10ef4ec2" />
 High Power Mode +6 performance with 12.5% power consumption
 
-Version1.1 : ESP32 C3 HP Mode 0.15W@425khs+ 
+Version1.1 : ESP32 C3 HP Mode ~~0.15W@425khs+~~ High Power Mode not working well, but possible to fix it, need time. v1.1-rc on site is a demo, the release one not yet upload. Few more things to fix in order to boost the whole thing back to over 400khs+. Not much time on fixing the project, i knows. Only works few days is not good enough, i know. But Low Power mode at less 355khs+, good enough and not perfect enough.
 
 - ESP32 D0WD Performance @ 0.45W
 - <img width="551" height="211" alt="ESP32_D0WD" src="https://github.com/user-attachments/assets/0ea0ec6b-e717-4151-9eb6-87f82daea9a8" />
