@@ -39,6 +39,9 @@ It has 2 power modes to switch, so in avg. it sits around 400-410khs. Since stab
 
 ## Versions ##
 
+**V1.2 Under Testing**
+- ESP32 C3 @ 402khs+ just LP Mode.
+
 **V1.1 Release**
 - 0.11w~0.12w avg. 355khs+ (LP Mode only)
 - Fixed most of the issues, running great. Few more enhancement, but no much visible performance like few more hashes/second
