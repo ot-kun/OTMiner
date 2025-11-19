@@ -38,6 +38,14 @@ Version1.1 : ESP32 C3 HP Mode ~~0.15W@425khs+~~ High Power Mode not working well
 It has 2 power modes to switch, so in avg. it sits around 400-410khs. Since stability issue, the tune down one with WIFI @ 355kh/s+
 
 ## Versions ##
+**v1.3 rc fine tuning & testing**
+- ESP32 C3 @ 453khs+ HP Mode fixed, so LP+HP around 428khs+
+- tunning merkles root from single to double provide even better performance, using fewer resources
+- fixing bugs found as pool not accepting some share that's valid(some pool still fine).
+- added stackable function, so stackable pin header will be applied for that purpose.
+- ram usage reduced
+- clean up
+- skipped V1.2 release since HP mode fixed.
 
 **V1.2 Under Testing**
 - ESP32 C3 @ 402khs+ just LP Mode.
