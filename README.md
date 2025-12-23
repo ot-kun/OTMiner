@@ -1,4 +1,5 @@
 # OTMiner
+(Change to privacy project - may not making new updates, ppl are crazy asking me do sth for his favour for free!?)
 ESP32 miner with sha256 Hardware Acceleration
 
 ## Introduction
